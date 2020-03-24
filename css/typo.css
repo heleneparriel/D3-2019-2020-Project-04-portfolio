@@ -1,34 +1,49 @@
 
-url('https://fonts.googleapis.com/css?family=Montserrat:200|Philosopher:700|Poiret+One&display=swap');
 
 p{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1em;
+font-family: obviously, sans-serif;
+font-style: normal;
+font-weight: 200;
+line-height: 18px;
+font-size: 1em;
+color: white;
+
+}
+
+header {
+  font-family: obviously, sans-serif;
+  font-style: bold;
+  font-weight: 400;
+  font-size: 2em;
+  color: red;
 }
 
 h1{
-  font-family: 'Poiret One', cursive;
+  font-family: obviously, sans-serif;
+  font-style: normal;
+  font-weight: 800;
   font-size: 3em;
   margin-left: 1em;
-  color: #ac3c3d;
+  color: white;
 }
 
-header h1 {
-  font-family: 'Philosopher', sans-serif;
-  font-size: 5em;
-  text-align: center;
-  color: #ac3c3d;
-}
+
 
 h2{
-  font-family: 'Philosopher', sans-serif;
+  font-family: obviously, sans-serif;
+  font-style: normal;
+  font-weight: 400;
   font-size: 2em;
-  margin-bottom: 0.65em;
+  margin-left: 2em;
+  color: white;
 }
 
 
-figcaption{
-  font-size: 0.75em;
-  font-style: italic;
-  color: #f4ddcd
+h3{
+  font-family: obviously, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.5em;
+  margin-bottom: 0.65em;
+  color: white;
 }
