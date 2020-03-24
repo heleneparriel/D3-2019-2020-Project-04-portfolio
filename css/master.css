@@ -1,12 +1,12 @@
 
 
 body{
-  background: white;
+  background: black;
   position: relative;
 }
 
 section{
-  border-bottom: #D2D2D2 5px solid;
+  border-bottom: 10px solid;
   min-height: 100vh;
 }
 
@@ -16,17 +16,22 @@ figure{
 }
 
 
-.project-feature-container{
-
-display: flex;
-flex-wrap: wrap;
-justify-content: space-around;
+.moi{
+width: : 60%;
+height : 500px;
+object-fit: cover;
+padding: 1em;
+margin-bottom: 10px;
 
 }
 
-.project-feature{
+.project-feature-container{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+}
 
-  border: 1px solid #000;
+.project-feature{
   margin: 1em;
   padding: 1em;
   flex-basis: 320px;
@@ -40,41 +45,15 @@ image: center;
   left: -300px;
   height: 100%;
   z-index: 999;
-  transition: 2s all ease;
+  transition: 3s all ease;
 }
 
-#main-menu:target{
-  left:0;
-}
 
 #main-menu ul a {
   display: block;
   color: white;
-  background: #5f807e;
   padding: 1em;
-  margin-bottom: 1px;
-}
-
-.menu-clos{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #000;
-  width: 40px;
-  height: 40px;
-  border-radius: 100%;
-
-  color: #fff;
-  font-size: 2em;
-  text-decoration: none;
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-
-.toggle-menu {
-  border: 1px solid #000;
-  padding: 1em;
+  margin-bottom: 5px;
 
 }
 
@@ -90,14 +69,26 @@ image: center;
 }
 
 
-@media (min-width: 640px) {
 #main-menu {
   position: static;
   width: 100%;
-  background: transparent;
 }
+
+
 #main-menu ul {
   display: flex;
-  justify-content: space-around;
-    width: 100%;
+  justify-content: space-around;;
+  width: 100%;
+}
+
+
+#about-me{
+  position: static;
+  max-width: 70em;
+}
+
+
+#contact .text-content {
+  position: static;
+  margin-left: 2em;
 }
