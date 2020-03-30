@@ -1,13 +1,11 @@
 
-
 p{
-font-family: obviously, sans-serif;
-font-style: normal;
-font-weight: 200;
+  font-family: obviously, sans-serif;
+  font-weight: 200;
+  font-style: normal;
 line-height: 18px;
 font-size: 1em;
 color: white;
-
 }
 
 header {
@@ -23,7 +21,6 @@ h1{
   font-style: normal;
   font-weight: 800;
   font-size: 3em;
-  margin-left: 1em;
   color: white;
 }
 
