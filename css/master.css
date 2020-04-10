@@ -16,9 +16,10 @@ figure{
 
 
 .moi{
-width: : 60%;
-height : 500px;
+width: 80%;
+height: 500px;
 object-fit: cover;
+object-position: 50% 70%;
 padding: 1em;
 margin-bottom: 10px;
 }
@@ -36,10 +37,9 @@ justify-content: space-around;
 image: center;
 }
 
-.project01 {
-
+.lien {
+  color: #B899C8;
 }
-
 
 #main-menu {
   position: absolute;
@@ -65,9 +65,8 @@ image: center;
 
 .menu-toggle {
   display: block;
-  border-radius: 6px;
   padding: 1em;
-  max-width: 300px;
+  max-width: 1px;
   text-align: right;
 }
 
@@ -117,6 +116,7 @@ image: center;
   .close-menu {
     display: none;
   }
+
   #main-menu ul {
     display: flex;
     justify-content: flex-end;
@@ -125,10 +125,11 @@ image: center;
 }
 
 
-@media (min-width : 960px) {
+
+#about-me .text-content {
+margin-left: 0.5em;
+margin-right: 0.5em;
 }
-
-
 
 
 #about-me{
@@ -140,4 +141,41 @@ image: center;
 #contact .text-content {
   position: static;
   margin-left: 2em;
+}
+
+#footer-social  p {
+  color: #B899C8;
+}
+
+#footer-social  a {
+color: #B899C8;
+float: right;
+display: inline-block;
+margin-right: 40px;
+}
+
+#projetO1 h1{
+  margin: 1em;
+}
+
+#projetO1 p{
+margin: 1em;
+padding: 1em;
+justify-content: space-around;
+max-width: 850px;
+}
+
+.image1{
+margin: 1em;
+padding: 1em;
+flex-basis: 320px;
+}
+
+.image2{
+  width: 62%;
+  height: 480px;
+  object-fit: cover;
+  object-position: 50% 50%;
+  margin: 1em;
+  padding: 1em;
 }
